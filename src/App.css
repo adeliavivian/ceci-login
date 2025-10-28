@@ -1,0 +1,127 @@
+body {
+  background-color: #d9d9d9;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  background-color: #ccc;
+  padding: 30px;
+  border-radius: 25px;
+  width: 320px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+  font-size: 32px;
+  font-weight: 900;
+  margin-bottom: 20px;
+}
+
+form {
+  text-align: left;
+  font-weight: bold;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border: none;
+  border-radius: 6px;
+}
+
+.linha {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 8px;
+}
+
+.linha1{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 8px;
+  font-size: 15px;
+}
+
+button {
+  background-color: #555;
+  color: white;
+  font-weight: bold;
+  width: 100%;
+  border: none;
+  padding: 10px;
+  margin-top: 15px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.linha {
+  display: flex;
+  justify-content: space-between; 
+  gap: 10px; 
+  margin-top: 10px;
+}
+
+.linha div {    
+  flex: 1;
+  justify-content: space-between; 
+  padding: 8px;
+}
+
+button:hover {
+  background-color: #333;
+}
+
+.social-title {
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 8px; 
+}
+
+.social-icons img {
+  width: 28px;
+  cursor: pointer;
+}
+
+.trocar {
+  margin-top: 15px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.Link {
+  color: blue;
+  text-decoration: underline;
+  cursor: pointer;
+  font-weight: normal;
+}
+.linha a {
+  font-size: 12px;
+}
